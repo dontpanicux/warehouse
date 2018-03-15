@@ -23,13 +23,6 @@ a:hover {
   color: hsla(0, 0%, 29%, 1);
 }
 
-h1,
-h2,
-h3,
-h4 {
-
-}
-
 input,
 textarea,
 select {
@@ -50,7 +43,7 @@ select {
 
 .button:hover {
 
-  background-color: Black - hsla(0, 0%, 13%, 1);
+  background-color: hsla(0, 0%, 13%, 1);
   color: hsla(0, 100%, 100%, 1);
 }
 
@@ -267,7 +260,8 @@ nav a:visted {
 
 #main h2 {
   margin-bottom: 2rem;
-  font-size: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 #main .button {
@@ -284,6 +278,13 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   padding: 1.5rem;
   background-color: hsla(0, 100%, 100%, 1);
+  line-height: 1.6;
+}
+
+footer h4 {
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 10px 0;
 }
 
 footer img {
@@ -297,6 +298,7 @@ footer .links {
 
 footer a {
   color: hsla(0, 0%, 29%, 1);
+  font-size: .875rem;
 }
 
 @media only screen and (max-width: 810px) {

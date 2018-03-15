@@ -1,14 +1,28 @@
 /* About Page */
 
-.about h1 {
+.about-hero {
   width: 100%;
+
   padding: 10.5rem 0;
+
   background-image: url('../img/hero.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-size: inherit;
-  font-stretch: condensed;
+}
+
+.about {
+  width: 100%;
+
+  padding: 3rem 0;
+
+  /* background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  /* font-size: inherit;
+  font-stretch: condensed; */
+
   color: hsla(0, 100%, 100%, 1);
 
 }
@@ -18,9 +32,10 @@
   color: hsla(0, 0%, 29%, 1);
 }
 
-.about h3 {
+.about h2 {
   margin-bottom: 1rem;
-  font-size: inherit;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .about p {
