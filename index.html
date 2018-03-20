@@ -12,9 +12,9 @@
 
     <!-- Header -->
 
-    <header>
+    <header role="banner">
       <div class="image-container">
-        <a href="index.html"><img src="resources/img/Home.png"></a>
+        <a href="index.html"><img src="resources/img/Home.png" alt="warehouse logo"></a>
       </div>
       <div class="search-bar">
         <input type="text" name="search" placeholder="Search for items">
@@ -25,7 +25,7 @@
 
       <!-- Site NAV -->
 
-    <nav>
+    <nav role="navigation">
       <a href="deals.html">Today's Deals</a>
       <a href="products.html">Products</a>
       <a href="about.html">About Us</a>
@@ -35,14 +35,14 @@
 
     <!-- Hero Section -->
 
-    <div id="main" class="landing">
+    <main id="main" aria-labelledby="main" class="landing">
       <div class="hero">
         <h2><a href="#">Shop Dining Tables</a></h2>
       </div>
 
     <!-- Products Preview Section -->
 
-      <div class="products">
+      <section class="products">
 
         <!-- Product Categories -->
 
@@ -115,13 +115,13 @@
             </div>
           </a>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
     <!-- Footer -->
 
-    <footer>
-      <img src="resources/img/Home.png">
+    <footer role="contentinfo">
+      <img src="resources/img/Home.png" alt="warehouse logo">
       <div class="links">
         <h4>Get to know us</h4>
         <a href="#">About us</a>

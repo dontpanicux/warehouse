@@ -12,15 +12,15 @@
 
     <header>
       <div class="image-container">
-        <a href="index.html"><img src="resources/img/Home.png"></a>
+        <a href="index.html"><img src="resources/img/Home.png" alt="warehouse logo"></a>
       </div>
       <div class="search-bar">
         <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <a href="" class="icon"><img src="resources/img/search.svg" alt="magnifying glass"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="cart"></a>
     </header>
-    <nav>
+    <nav role="navigation">
       <a href="deals.html" class="currentPage">Today's Deals</a>
       <a href="products.html">Products</a>
       <a href="about.html">About Us</a>
@@ -30,7 +30,7 @@
 
     <!-- Deals Section -->
 
-    <div id="main" class="product-list-section">
+    <main id="main" class="product-list-section" aria-labelledby="main">
       <h2>Today's Deals</h2>
 
       <div class="product-list">
@@ -56,7 +56,7 @@
 
         <a href="#" class="product-item">
           <div class="image-container">
-            <img src="resources/img/chairs/yellow-chair.jpg">
+            <img src="resources/img/chairs/yellow-chair.jpg" alt="yellow chair">
           </div>
           <div class="description">
             <h3>Yellow Chair</h3>
@@ -66,7 +66,7 @@
 
         <a href="#" class="product-item">
           <div class="image-container">
-            <img src="resources/img/deals/pottery.jpg">
+            <img src="resources/img/deals/pottery.jpg" alt="pottery">
           </div>
           <div class="description">
             <h3>Ceramic Pottery</h3>
@@ -75,12 +75,12 @@
         </a>
 
       </div>
-    </div>
+    </main>
 
     <!-- Footer -->
 
-    <footer>
-      <img src="resources/img/Home.png">
+    <footer role="contentinfo">
+      <img src="resources/img/Home.png" alt="warehouse logo">
       <div class="links">
         <h4>Get to know us</h4>
         <a href="#">About us</a>
